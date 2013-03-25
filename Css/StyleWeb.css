@@ -1,0 +1,98 @@
+/* Feuille de style compl�te pour l'affichage sur le Web */
+/* Cr�ation de la police DancingScript t�l�charg�e sur FontQuirrel.com */
+
+/*@font-face {
+    font-family: 'DancingScript';
+    src: url('../Polices/DancingScript-Regular-webfont.eot') format('eot'),
+	     url('../Polices/DancingScript-Regular-webfont.woff') format('woff'),
+		 url('../Polices/DancingScript-Regular-webfont.ttf') format('truetype'),
+         url('../Polices/DancingScript-Regular-webfont.svg') format('svg');
+}
+@font-face {
+    font-family: 'Telegramma';
+    src: url('../Polices/Telegrama_render.otf') format('otf');
+}*/
+@font-face {
+    font-family: 'AmerikaRegular';
+    src: url('../Polices/AMERIKA_-webfont.eot');
+    src: url('../Polices/AMERIKA_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Polices/AMERIKA_-webfont.woff') format('woff'),
+         url('../Polices/AMERIKA_-webfont.ttf') format('truetype'),
+         url('../Polices/AMERIKA_-webfont.svg#AmerikaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header {
+	display: block;
+	margin: 5px;
+	border:0px;
+	padding: 5px;
+	height: 175px;
+	background-color: rgb(249,244,198);
+	width: 100%;
+}
+header h1 {
+	display: inline;
+	font-family:'AmerikaRegular', serif;
+	font-weight: bold;
+	font-size: 3.5em;
+}
+
+#IFrameContenu {
+	Background-color: rgb(249,244,198);
+	margin: 5px;
+	padding: 5px;
+	border: 0px;
+	width: 100%;
+	height: 320px;
+	font-family:'AmerikaRegular', serif;
+	font-size: 1.25em;
+	display: inline-block;
+}
+
+#IFrameContenu a{	
+	float: right;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: black;
+	text-align: center;
+	vertical-align: center;
+	background-color: rgb(249,224,168);
+	width: 10em; height: 1.25em; border-radius: 3em 1em 3em 1em; border: 0px solid;
+	-moz-border-radius: 3em 1em 3em 1em; -webkit-border-radius: 3em 1em 3em 1em;
+	float: rigth;
+}
+
+#ResultHisto {
+	Background-color: rgb(249,244,198);
+	margin: 5px;
+	padding: 5px;
+	border: 0px;
+	width: 100%;
+	height: 220px;
+	font-family:'AmerikaRegular', serif;
+	font-size: 1.25em;
+	display: inline-block;
+}
+
+footer {
+	font-family:'AmerikaRegular', serif;
+	font-size:1em;
+	display: block;
+	margin: 5px;
+	border: 0px;
+	padding: 5px;
+	Background-color: rgb(249,244,198);
+	width: 100%;
+}
+footer .Lien {
+	display: inline;
+	text-decoration: none;
+}
+footer a{	
+	text-decoration: none;
+	color: black;
+}
