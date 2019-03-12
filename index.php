@@ -11,6 +11,7 @@
 		<?php include "header.php" ?>
 	</header>
 	<!-- le contenu de la page d'accueil -->
+	<p>J'ai fait une modif ! </p>
 	<iframe src="ContenuIndex.html" name="IFrameContenu" id="IFrameContenu" >
 	</iframe>
 	<footer>
