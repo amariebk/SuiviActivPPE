@@ -12,6 +12,7 @@
 		<?php include "header.php" ?>
 	</header>
 	<!-- le contenu de la page d'accueil -->
+	<p>je modifie la page</P>
 	<iframe src="ContenuIndex.html" name="IFrameContenu" id="IFrameContenu" >
 	</iframe>
 	<footer>
